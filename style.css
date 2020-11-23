@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(209, 230, 87);
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.container{
+    padding: 16px;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 65px;
+    font-weight: normal;
+}
+
+.container h4{
+    font-size: 32px;
+    padding: 16px;
+    font-weight: normal;
+}
+
+.alphabets{
+    width: 69%;
+    margin: auto;
+    text-align: left;
+}
+
+.aplhabet{
+    padding: 8px 14px;
+    font-size: 18px;
+    color: rgb(202, 224, 75);
+    background-color: #fbfbfb;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.input h3{
+    font-size: 32px;
+    padding: 16px;
+    font-weight: normal;
+}
+
+.display h2{
+    letter-spacing: 9px;
+}
+
+.button{
+    font-size: 21px;
+    background-color: transparent;
+    border: 2px solid  rgb(142, 161, 35);
+    padding: 8px;
+}
+.button:hover{
+    background-color:  rgb(142, 161, 35);
+    color: white;
+}
+
+.button-div{
+    padding-top: 24px;
+}
+
+#canvas{
+    border: 2px dashed rgb(142, 161, 35);
+}

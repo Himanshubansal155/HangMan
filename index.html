@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>HANGMAN</h1>
+        <h4>
+            Use the alphabet below to guess the word, or click hint to get a clue.
+        </h4>
+        <div class="alphabets">
+            <button id="a" class="aplhabet" onclick="addAlphabet(this)"><kbd>a</kbd></button>
+            <button id="b" class="aplhabet" onclick="addAlphabet(this)"><kbd>b</kbd></button>
+            <button id="c" class="aplhabet" onclick="addAlphabet(this)"><kbd>c</kbd></button>
+            <button id="d" class="aplhabet" onclick="addAlphabet(this)"><kbd>d</kbd></button>
+            <button id="e" class="aplhabet" onclick="addAlphabet(this)"><kbd>e</kbd></button>
+            <button id="f" class="aplhabet" onclick="addAlphabet(this)"><kbd>f</kbd></button>
+            <button id="g" class="aplhabet" onclick="addAlphabet(this)"><kbd>g</kbd></button>
+            <button id="h" class="aplhabet" onclick="addAlphabet(this)"><kbd>h</kbd></button>
+            <button id="i" class="aplhabet" onclick="addAlphabet(this)"><kbd>i</kbd></button>
+            <button id="j" class="aplhabet" onclick="addAlphabet(this)"><kbd>j</kbd></button>
+            <button id="k" class="aplhabet" onclick="addAlphabet(this)"><kbd>k</kbd></button>
+            <button id="l" class="aplhabet" onclick="addAlphabet(this)"><kbd>l</kbd></button>
+            <button id="m" class="aplhabet" onclick="addAlphabet(this)"><kbd>m</kbd></button>
+            <button id="n" class="aplhabet" onclick="addAlphabet(this)"><kbd>n</kbd></button>
+            <button id="o" class="aplhabet" onclick="addAlphabet(this)"><kbd>o</kbd></button>
+            <button id="p" class="aplhabet" onclick="addAlphabet(this)"><kbd>p</kbd></button>
+            <button id="q" class="aplhabet" onclick="addAlphabet(this)"><kbd>q</kbd></button>
+            <button id="r" class="aplhabet" onclick="addAlphabet(this)"><kbd>r</kbd></button>
+            <button id="s" class="aplhabet" onclick="addAlphabet(this)"><kbd>s</kbd></button>
+            <button id="t" class="aplhabet" onclick="addAlphabet(this)"><kbd>t</kbd></button>
+            <button id="u" class="aplhabet" onclick="addAlphabet(this)"><kbd>u</kbd></button>
+            <button id="v" class="aplhabet" onclick="addAlphabet(this)"><kbd>v</kbd></button>
+            <button id="w" class="aplhabet" onclick="addAlphabet(this)"><kbd>w</kbd></button>
+            <button id="x" class="aplhabet" onclick="addAlphabet(this)"><kbd>x</kbd></button>
+            <button id="y" class="aplhabet" onclick="addAlphabet(this)"><kbd>y</kbd></button>
+            <button id="z" class="aplhabet" onclick="addAlphabet(this)"><kbd>z</kbd></button>
+        </div>
+
+        <div class="input">
+            <h3 id="result">The Chosen Category Is <span id="question"></span></h3>
+            <h4 style="display: none;" id="clueH"><span id="clue"></span></h4>
+        </div>
+
+        <div class="display">
+            <h2 id="letter">___________</h2>
+        </div>
+
+        <div id="time">
+            <h4 id="timer"></h4>
+        </div>
+
+        <!-- <canvas id="canvas" width="250" height="200"></canvas> -->
+
+        <div class="button-div">
+            <button id="hint" class="button">Hint</button>
+            <button id="playAgain" class="button">Play Again</button>
+        </div>
+    </div>
+
+    <script src="hang.js"></script>
+</body>
+
+</html>
